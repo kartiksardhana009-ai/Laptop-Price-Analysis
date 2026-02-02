@@ -1,23 +1,36 @@
 # Laptop Price Analysis
 
-## Objective
-To analyze laptop prices and identify key factors influencing pricing using Python.
+## 📌 Project Overview
+This project performs **exploratory data analysis (EDA)** on a laptop pricing dataset to uncover trends and factors that influence price using Python.
 
-## Tools Used
+## 🔧 Tools Used
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
+- Jupyter Notebook
 
-## Dataset
-Laptop dataset containing features such as brand, RAM, processor, storage, and price.
+## 📊 Analysis Performed
+1. Loaded and inspected the dataset
+2. Cleaned missing values and corrected data types
+3. Visualized:
+   - Price vs Brand
+   - Price vs RAM
+   - Price vs Processor
+4. Extracted insights from visual patterns
 
-## Work Done
-- Data cleaning and preprocessing
-- Exploratory data analysis (EDA)
-- Visualization of price trends
+## 📍 Key Findings
+- Laptops with **higher RAM and better processors** tend to have higher prices.
+- Premium brands generally show **higher average prices** than budget brands.
 
-## Key Insights
-- Prices increase with higher RAM and better processors
-- Premium brands are more expensive
+## 🗂️ How to Run This Project
+1. Clone the repository  
+2. Open `laptop_price_analysis.ipynb` in Jupyter Notebook
+3. Run cells to explore analysis and visuals
+
+## 📸 Visuals (Optional)
+You can include any plots here by saving them and embedding like:
+
+## 📌 Conclusion
+This EDA project builds a foundation for understanding laptop pricing trends and can be extended to machine learning prediction models in the future.
