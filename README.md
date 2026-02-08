@@ -1,9 +1,20 @@
-# Laptop Price Analysis
+# 💻 Laptop Price Analysis using Python
 
 ## 📌 Project Overview
-This project performs **exploratory data analysis (EDA)** on a laptop pricing dataset to uncover trends and factors that influence price using Python.
+This project analyzes laptop price data to understand how different features affect pricing.  
+The goal is to extract useful insights using data analysis and visualization techniques.
 
-## 🔧 Tools Used
+---
+
+## 🎯 Objectives
+- Clean and preprocess raw data
+- Analyze important features
+- Visualize price trends
+- Find factors affecting laptop prices
+
+---
+
+## 🛠️ Tools & Technologies
 - Python
 - Pandas
 - NumPy
@@ -11,26 +22,59 @@ This project performs **exploratory data analysis (EDA)** on a laptop pricing da
 - Seaborn
 - Jupyter Notebook
 
-## 📊 Analysis Performed
-1. Loaded and inspected the dataset
-2. Cleaned missing values and corrected data types
-3. Visualized:
-   - Price vs Brand
-   - Price vs RAM
-   - Price vs Processor
-4. Extracted insights from visual patterns
+---
 
-## 📍 Key Findings
-- Laptops with **higher RAM and better processors** tend to have higher prices.
-- Premium brands generally show **higher average prices** than budget brands.
+## 📂 Dataset
+- Source: Kaggle / Online Dataset
+- Format: CSV
+- Contains laptop specifications and prices
 
-## 🗂️ How to Run This Project
-1. Clone the repository  
-2. Open `laptop_price_analysis.ipynb` in Jupyter Notebook
-3. Run cells to explore analysis and visuals
+---
 
-## 📸 Visuals (Optional)
-You can include any plots here by saving them and embedding like:
+## 🔍 Steps Performed
 
-## 📌 Conclusion
-This EDA project builds a foundation for understanding laptop pricing trends and can be extended to machine learning prediction models in the future.
+### 1️⃣ Data Cleaning
+- Removed missing values
+- Handled duplicate data
+- Converted data types
+
+### 2️⃣ Exploratory Data Analysis (EDA)
+- Price distribution analysis
+- Brand-wise comparison
+- RAM & Storage impact
+- Processor analysis
+
+### 3️⃣ Data Visualization
+- Bar charts
+- Line graphs
+- Heatmaps
+- Histograms
+
+---
+
+## 📊 Key Insights
+- Higher RAM and SSD increase price
+- Gaming laptops are more expensive
+- Premium brands have higher prices
+- Processor type affects cost
+
+---
+
+## ▶️ How to Run This Project
+
+1. Clone the repositor 
+2. Install required libraries
+3. Open Jupyter Notebook
+   
+4. Run the notebook file
+
+
+## 👨‍💻 Author
+
+**Kartik Sardana**  
+B.Tech CSE Student  
+GitHub: https://github.com/kartiksardhana009-ai
+
+---
+
+⭐ If you like this project, give it a star!
